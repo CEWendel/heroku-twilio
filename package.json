@@ -1,0 +1,19 @@
+{
+    "name": "heroku-twilio",
+    "description": "A Twilio helper library for node that is Heroku friendly",
+    "version": "0.0.5",
+    "author": "Chris Wendel (http://github.com/cewendel)",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/cewendel/heroku-twilio.git"
+    },
+    "dependencies": {
+        "express": ">= 2.0.0"
+    },
+    "modules": {
+        "client": "./lib/twilio",
+        "twiml": "./lib/twiml"
+    },
+    "main": "./lib",
+    "engines": {"node" : ">=0.4.0"}
+}
