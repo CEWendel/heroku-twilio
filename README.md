@@ -8,7 +8,7 @@ Parts of node-twilio depend on [`express`](http://expressjs.com).
 
 To install via npm:
     
-    npm install twilio
+    npm install heroku-twilio
 
 To install by hand, download the module and create a symlink in `~/.node_libraries`
 
